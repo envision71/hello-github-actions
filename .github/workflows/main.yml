@@ -11,4 +11,4 @@ jobs:
         with:
           MY_NAME: "Mona"
         env:
-          MY_NAME_S: "Sona"
+          MY_NAME_S: ${{ secrets.Name }}
